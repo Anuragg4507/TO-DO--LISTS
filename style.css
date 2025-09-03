@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(221, 212, 230);
+}
+
+   .container{
+    border: none;
+    border-radius: 17px;
+    background-color: rgb(239, 60, 60);
+    height: auto;
+    width: 30vw;
+    box-shadow: 5px 6px 7px;  
+} 
+
+  .header{
+    text-align: center;
+    padding: 12px;
+    font-size: 2.9em;
+    font-weight: 930;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+  } 
+  .AddTasks{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2px;
+  } 
+   
+  input{
+    padding: 9px;
+    border-radius: 8px;
+  } 
+
+  button:hover{
+    border: 4px;
+    box-shadow: 4px 5px 6px;
+  } 
+
+  button{
+    background-color: rgb(166, 75, 241);
+    color: rgb(159, 201, 238);
+    padding: 6px;
+    border-radius: 7px;
+    
+  } 
+  ul{
+    list-style: none;
+    padding: 18px;
+
+  }
+    
+  li{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid wheat;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 9px;
+
+  }
